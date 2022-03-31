@@ -5,10 +5,10 @@ import android.view.ViewGroup
 import androidx.paging.PagingDataAdapter
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView.ViewHolder
+import coil.load
 import com.example.testpaging3.adapter.CharacterAdapter.ImageViewHolder
 import com.example.testpaging3.databinding.CharacterLayoutBinding
 import com.example.testpaging3.model.RickMorty
-import coil.load
 
 class CharacterAdapter : PagingDataAdapter<RickMorty,
         ImageViewHolder>(diffCallback) {
